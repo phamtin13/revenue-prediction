@@ -8,3 +8,4 @@ if st.button('Predict'):
   result = model.predict(a)
   st.caption('Revenue Prediction')
   st.success(str(result))
+streamlit run app.py --server.gatherUsageStats False
