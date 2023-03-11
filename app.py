@@ -1,6 +1,6 @@
 import streamlit as 
 pip install pickle-mixin
-import requirements.txt
+import pickle
 model = pickle.load(open('model.pickle', "rb"))
 st.title("Revenue Prediction")
 a = st.number_input('Input Temperature')
