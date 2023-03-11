@@ -1,4 +1,5 @@
-import streamlit as st
+import streamlit as 
+pip install pickle-mixin
 import requirements.txt
 model = pickle.load(open('model.pickle', "rb"))
 st.title("Revenue Prediction")
