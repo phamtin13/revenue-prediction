@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import requirements.txt
 model = pickle.load(open('model.pickle', "rb"))
 st.title("Revenue Prediction")
 a = st.number_input('Input Temperature')
