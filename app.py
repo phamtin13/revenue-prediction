@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 filename = 'model.pickle'
-import filename
 import pickle
 model = pickle.load(open(filename, "rb"))
 st.title("Revenue Prediction")
