@@ -1,8 +1,7 @@
 import streamlit as st
 import numpy as np
-filename = 'model.pickle'
 import pickle
-import requirements.txt
+filename = 'model.pickle'
 model = pickle.load(open(filename, "rb"))
 st.title("Revenue Prediction")
 A = []
