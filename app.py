@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy
+import numpy as np
 import pickle
 filename = 'model.pickle'
 model = pickle.load(open(filename, "rb"))
